@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Rick and Morty</string>
+
+    <string name="menu_episode">Episodes</string>
+    <string name="menu_character">Characters</string>
+    <string name="menu_location">Locations</string>
+    <string name="menu_details_episode">Episode details</string>
+    <string name="menu_details_character">Character details</string>
+    <string name="menu_details_location">Locations details</string>
+
+    <string name="details_name"><u>Name:</u></string>
+    <string name="details_status"><u>Status:</u></string>
+    <string name="details_species"><u>Species:</u></string>
+    <string name="details_type"><u>Type:</u></string>
+    <string name="details_gender"><u>Gender:</u></string>
+    <string name="details_origin"><u>Origin location:</u></string>
+    <string name="details_location"><u>Last known location:</u></string>
+    <string name="details_episodes"><u>Appeared in episodes:</u></string>
+    <string name="details_dimension"><u>Dimension:</u></string>
+    <string name="details_resident"><u>Residents:</u></string>
+    <string name="details_airdate"><u>Air date:</u></string>
+    <string name="details_episode"><u>Episode code:</u></string>
+    <string name="details_characters"><u>Characters:</u></string>
+
+    <string name="recycler_locName">Location name</string>
+    <string name="recycler_locType">Location type</string>
+    <string name="recycler_locDimension">Location dimension</string>
+    <string name="recycler_charName">Character name</string>
+    <string name="recycler_charSpecies">Character species</string>
+    <string name="recycler_charStatus">Character status</string>
+    <string name="recycler_charGender">Character gender</string>
+    <string name="recycler_epiName">Episode name</string>
+    <string name="recycler_epiEpisode">Episode number</string>
+    <string name="recycler_epiAirDate">Episode air date</string>
+
+    <string name="recycler_filter">Show filter</string>
+    <string name="recycler_error">Unable to load information</string>
+
+    <string name="content_description_avatar">Avatar</string>
+    <string name="content_description_logo">Logo</string>
+
+
+
+    <string name="filter_apply">Apply filters</string>
+
+    <string name="filter_character">Character Filters</string>
+    <string name="filter_character_name">enter characters name</string>
+    <string name="filter_character_status">enable filter by status</string>
+    <string name="filter_character_species">enable filter by species</string>
+    <string name="filter_character_type">enable filter by type</string>
+    <string name="filter_character_gender">enable filter by gender</string>
+
+    <string name="filter_character_status_alive">Alive</string>
+    <string name="filter_character_status_dead">Dead</string>
+    <string name="filter_character_status_unknown">Unknown</string>
+
+    <string name="filter_character_species_edit">enter species</string>
+    <string name="filter_character_type_edit">enter type</string>
+
+    <string name="filter_character_gender_female">Female</string>
+    <string name="filter_character_gender_male">Male</string>
+    <string name="filter_character_gender_genderless">Genderless</string>
+    <string name="filter_character_gender_unknown">Unknown</string>
+
+
+    <string name="filter_location">Location Filters</string>
+    <string name="filter_location_name">enter locations name</string>
+    <string name="filter_location_type">enable filter by type</string>
+    <string name="filter_location_dimension">enable filter by dimension</string>
+
+    <string name="filter_location_type_edit">enter type</string>
+    <string name="filter_location_dimension_edit">enter dimension</string>
+
+
+    <string name="filter_episode">Episode Filters</string>
+    <string name="filter_episode_name">enter episodes name</string>
+    <string name="filter_episode_episode">enable filter by episode code</string>
+
+    <string name="filter_episode_episode_edit">enter code</string>
+
+    <string name="filter_enable">firstly enable filter</string>
+
+    <string name="error_empty_list_character_title">No characters are found</string>
+    <string name="error_empty_list_character">Try another filters or search query</string>
+    <string name="error_empty_list_location_title">No locations are found</string>
+    <string name="error_empty_list_location">Try another filters or search query</string>
+    <string name="error_empty_list_episode_title">No episodes are found</string>
+    <string name="error_empty_list_episode">Try another filters or search query</string>
+    <string name="error_empty_database_title">Oops!</string>
+    <string name="error_empty_database">There is no data for Offline mode. Try to refresh page after connection resume</string>
+</resources>

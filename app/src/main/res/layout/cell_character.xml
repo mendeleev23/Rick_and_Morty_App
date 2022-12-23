@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/character_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.MaterialComponents.Light">
+
+    <ProgressBar
+        android:id="@+id/cell_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:theme="@style/CircularProgress" />
+
+    <LinearLayout
+        android:id="@+id/colored_layout"
+        style="@style/LinearLayoutCell"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView_avatar"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:contentDescription="@string/content_description_avatar"
+                android:src="@drawable/ic_character" />
+
+            <ProgressBar
+                android:id="@+id/image_progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:elevation="3dp"
+                android:theme="@style/CircularProgress" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView_name"
+            style="@style/TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recycler_charName" />
+
+        <TextView
+            android:id="@+id/textView_species"
+            style="@style/RegularText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recycler_charSpecies" />
+
+        <TextView
+            android:id="@+id/textView_status"
+            style="@style/RegularText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recycler_charStatus" />
+
+        <TextView
+            android:id="@+id/textView_gender"
+            style="@style/RegularText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recycler_charGender" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

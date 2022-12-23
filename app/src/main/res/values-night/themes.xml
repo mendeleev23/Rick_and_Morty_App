@@ -1,0 +1,100 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ASTON_CourseProject_RickMorty" parent="Theme.MaterialComponents.Bridge">
+        <!-- Primary brand color. -->
+        <item name="android:fontFamily">@font/pink_chicken</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/light</item>
+        <item name="android:windowBackground">@color/gray_blu</item>
+        <item name="android:navigationBarColor">@color/blue</item>
+        <item name="android:textColor">@color/light</item>
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <item name="progressBarStyle">@style/CircularProgress</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:windowBackground">@drawable/drawable_splash</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/light</item>
+        <item name="android:background">@color/gray_blu</item>
+        <item name="android:textColorPrimary">@color/light</item>
+    </style>
+
+    <style name="CheckBoxDialog" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/light</item>
+        <item name="buttonTint">@color/light</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="RadioBoxDialog" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/light</item>
+        <item name="buttonTint">@color/light</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="EditTextDialog" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textColor">@color/light</item>
+        <item name="android:backgroundTint">@color/light</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextVIewErrorTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+    <style name="TextVIewError" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/light</item>
+    </style>
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/light</item>
+        <item name="android:elevation">3dp</item>
+    </style>
+
+    <style name="LinearLayoutCell" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/light_blue</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="LinearLayoutFilterDialog" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/light_blue</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="DialogBackGround" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/gray_blu</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="TitleText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="RegularText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="FilterButton" parent="ShapeAppearanceOverlay.Material3.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:backgroundTint">@color/blue</item>
+    </style>
+</resources>
